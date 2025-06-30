@@ -13,14 +13,3 @@ export interface Continent {
   id: number;
   name: string;
 }
-
-//  {
-//     "id": 0,
-//     "firstName": "Daenerys",
-//     "lastName": "Targaryen",
-//     "fullName": "Daenerys Targaryen",
-//     "title": "Mother of Dragons",
-//     "family": "House Targaryen",
-//     "image": "daenerys.jpg",
-//     "imageUrl": "https://thronesapi.com/assets/images/daenerys.jpg"
-//   }

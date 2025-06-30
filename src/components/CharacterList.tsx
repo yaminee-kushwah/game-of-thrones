@@ -16,7 +16,7 @@ export default function CharacterList({ characters }: Props) {
           {characters.map((character) => (
             <div key={character.id}>
               <Link key={character.id} href={`/characters/${character.id}`}>
-                <div className="bg-gray-100 overflow-hidden">
+                <div className="bg-white shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 w-full max-w-sm rounded-lg overflow-hidden mx-auto mt-4">
                   <div className="bg-gray-50 aspect-[23/16]">
                     <img
                       src={character.imageUrl}
